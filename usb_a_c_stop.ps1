@@ -1,5 +1,8 @@
 
-Remove-ItemProperty -Path "HKCU:\AppEvents\Schemes\Apps\.Default\DeviceConnect\.Current" -Name "(Default)"
+$defaultSoundPath = "%SystemRoot%\media\Windows Hardware Insert.wav"
 
 
-Write-Output "DONE ciao"
+Set-ItemProperty -Path "HKCU:\AppEvents\Schemes\Apps\.Default\DeviceConnect\.Current" -Name "(Default)" -Value $defaultSoundPath
+
+
+Write-Output "DONE"
