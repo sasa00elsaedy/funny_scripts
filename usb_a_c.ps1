@@ -10,5 +10,4 @@ Invoke-WebRequest -Uri $soundUrl -OutFile $tempPath
 
 Set-ItemProperty -Path "HKCU:\AppEvents\Schemes\Apps\.Default\DeviceConnect\.Current" -Name "(Default)" -Value $tempPath
 
-
 Write-Output "DONE"
