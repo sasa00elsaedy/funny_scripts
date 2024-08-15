@@ -1,5 +1,5 @@
 
-$soundUrl = "https://github.com/sasa00elsaedy/funny_scripts/blob/main/s9xx8-zimyv.wav?raw=true"
+$soundUrl = "https://github.com/sasa00elsaedy/funny_scripts/raw/main/s9xx8-zimyv.wav"
 
 
 $tempPath = [System.IO.Path]::GetTempFileName() + ".wav"
